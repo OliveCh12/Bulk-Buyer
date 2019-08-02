@@ -1,0 +1,10 @@
+header {
+    background-color: darken($color: $light, $amount: 0%);
+    border-bottom: 1px solid darken($color: $body-bg, $amount: 10%);
+    box-shadow: 0px 5px 10px rgba($color: $dark, $alpha: 0.05);
+    width: 100%;
+
+    nav {
+        height: 4rem;
+    }
+}

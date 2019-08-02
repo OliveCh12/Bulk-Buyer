@@ -1,0 +1,19 @@
+$primary: rgb(74, 57, 235);
+$danger: rgb(233, 89, 101);
+
+.App {
+    font-family: "Roboto";
+    font-size: 10pt;
+}
+
+small {
+    opacity: 0.3;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import './components/footer.scss';
+@import './components/header.scss';
+@import './components/table.scss';
+@import './components/settingbar.scss';
+@import './components/forms.scss';
+

@@ -1,0 +1,16 @@
+input,
+textarea,
+select {
+    background-color: lighten($body-bg, 100%) !important;
+    border: 1px solid rgba($color: $dark, $alpha: 0.1) !important;
+    border-radius: $border-radius !important;
+    color: $dark !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    box-shadow: 5px 5px 0px rgba(darken($primary, 0%), 0.2) !important;
+    border: 1px solid $primary !important;
+    color: $primary !important;
+}
